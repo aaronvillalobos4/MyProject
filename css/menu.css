@@ -1,6 +1,10 @@
+
 section#carousel > figure > img {
     display: none;
     margin: 0px auto;
+    border: 2px solid beige;
+    box-shadow: 5px 5px 5px 5px #4645459c;
+    margin-top: 80px;
     }
 
 section#carousel > figure.visible > img {
@@ -11,6 +15,9 @@ section#carousel > figure.visible > img {
 
 section#carousel > figure > figcaption {
     display: none;
+    padding-top: 25px;
+    font-style: italic;
+    color: beige;
     }
 
 section#carousel > figure.visible > figcaption {
@@ -18,6 +25,85 @@ section#carousel > figure.visible > figcaption {
     text-align: center;  
     font-weight: bold;
     font-size: 1.5em;
+
     }
 
+article > h2 {
+    position: relative;
+    left: 60px;
+    font-style: italic;
+}  
+
+#Pizza_Menu {
+    position: relative;
+    border: 2px solid black;
+    margin-right: 65%;
+    margin-left: 10%;
+    top: 80px;
+    background-color: beige;
+}
+
+#Pasta_Menu {
+    position: relative;
+    left: 30%;
+    border: 2px solid black;
+    margin-right: 65%;
+    margin-left: 10%;
+    top: -300px;
+    background-color: beige;
+}
+
+#Pastry_Menu {
+    position: relative;
+    left: 60%;
+    border: 2px solid black;
+    margin-right: 65%;
+    margin-left: 10%;
+    top: -680px;
+    background-color: beige;
     
+}
+
+.menu_font {
+    font-style: italic;
+}
+
+div {
+    position: relative;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.301);
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-size: 16pt;
+}
+
+a {
+    color: beige;
+    font-weight: bold;
+    padding: 120px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gold;
+}
+
+header {
+    color: beige;
+    font-size: 32pt;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#background-image {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(255, 0, 0, 0.45)), url(../images/Menu\ background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
