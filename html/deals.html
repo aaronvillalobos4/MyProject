@@ -4,9 +4,15 @@
     <title>Pizza Deals</title>
     <link rel="stylesheet" href="../css/deals.css">
 </head>
-<body>
-    <h1>Sign Up For Exclusive Discounts!</h1>
-
+<!--This id attribute is a video that will cover the entire page and play in the background-->
+<body id="background-image">
+    <div>
+        <a href="../html/homepage_edits.html">Home</a>
+        <a href="../html/menu.html">Menu</a>
+        <a href="../html/location.html">Location</a>
+        <a href="../html/deals.html">Exclusive Deals</a>
+     </div>
+     <h1>Sign Up For Exclusive Discounts!</h1>
     <!--This is a form where visitors can sign up for deals/coupons-->
    
         <form class="discountForm">
@@ -14,16 +20,16 @@
 
             <ul>
             <li>
-                <input type="text" name="field1" class="field-split align-left" placeholder="Name" />
+                <input type="text" name="field1" class="field-split align-left" placeholder="Name*" required />
                 <input type="email" name="field2" class="field-split align-right" placeholder="Email" />
             
             </li>
             <li>
                 <input type="text" name="field3" class="field-split align-left" placeholder="Phone" />
-                <input type="text" name="field4" class="field-split align-right" placeholder="State" />
+                <input type="text" name="field4" class="field-split align-right" placeholder="State*" required />
             </li>
             <li>
-            <input type="number" name="field5" class="field-full align-none" placeholder="Zipcode" />
+            <input type="number" name="field5" class="field-full align-none" placeholder="Zipcode*" required />
             </li>
             <li>
             <textarea name="field6" class="field-style" placeholder="Message"></textarea>
