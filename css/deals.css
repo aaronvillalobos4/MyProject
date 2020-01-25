@@ -1,14 +1,14 @@
 
 h1 {
     text-align: center;
-    color: #305A72;
-    padding-top: 20px;
+    color: beige;
+	text-shadow: 2px 2px black;
 
 }
 
 h2 {
     text-align: center;
-    color: #305A72;
+	color: #305A72;
 }
 
 #dealImg {
@@ -19,7 +19,7 @@ h2 {
 }
 
 body {
-    background-color: lightgoldenrodyellow;
+	background-color: lightgoldenrodyellow;
     padding: 0px;
     margin: 0;
     bottom: 0px;
@@ -96,4 +96,36 @@ body {
 .discountForm ul li input[type="submit"]:hover {
 	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
 	background-color: #28739E;
+}
+
+div {
+    position: relative;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.301);
+    padding: 20px ;
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-right: -20px;
+    font-size: 16pt;
+}
+
+a {
+    color: beige;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 90px;
+	text-decoration: none;
+	text-shadow: 2px 2px black;
+}
+
+a:hover {
+    color: gold;
+}
+
+#background-image {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgba(0, 14, 90, 0.644), rgba(0, 0, 0, 0.45));
 }

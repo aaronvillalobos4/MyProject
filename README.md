@@ -9,8 +9,7 @@ Details: Website visitors will be able to navigate the website by using links fo
          contact.  There will be a contact form that visitors will be able to fill out to sign up 
          for coupons, online deals, or for general inquiries.  The location page will have a link where
          customers can call the restaurant.  The menu and pricing page will give website visitors access
-         to view food & prices.  They will also be able to make reservations and make orders to go
-         by clicking on the click to call reservations and order to go buttons on the page.  
+         to view food & prices.   
 
 
 Technologies Used:  .html, .css, and .js.
@@ -20,5 +19,6 @@ Ideas For Future Improvement:  Would like to create a capability to where websit
                                order online and be able to pay online.  Would like a feature where
                                you can add coupon codes that can subtract from the total so customers
                                can see how much they saved.  
+                               
 
 

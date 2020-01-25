@@ -3,6 +3,7 @@ h1 {
     text-align: center;
     font-size: 36pt;
     color: beige;
+    text-shadow: 2px 2px black;
 }
 
 h3 {
@@ -26,25 +27,33 @@ div {
     background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(255, 0, 0, 0.45)), url(../images/Location_background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed; 
+    background-attachment: fixed;  
 }
 
 div {
     position: relative;
     text-align: center;
     background: rgba(0, 0, 0, 0.301);
-    padding: 20px;
+    padding: 20px ;
     margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: -20px;
+    margin-right: -20px;
     font-size: 16pt;
 }
 
 a {
     color: beige;
     font-weight: bold;
-    padding: 120px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 90px;
     text-decoration: none;
+    text-shadow: 2px 2px black;
+}
+
+a:hover {
+    color: gold;
 }
 
 #button-style {

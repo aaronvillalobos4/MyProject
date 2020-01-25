@@ -1,42 +1,60 @@
 #myHeader {
-    color: burlywood;
-    background: rgba(0, 0, 0, 0.5);
+    color: beige;
+    text-shadow: 2px 2px black;
     position: absolute;
     top: 8px;
     left: 16px;
 }
 
 #bizName {
-    color: burlywood;
-    background: rgba(0, 0, 0, 0.5);
+    color: gold;
+    text-shadow: 2px 2px black;
     position: absolute;
     top: 50%;
-    left: 80%;
+    left: 70%;
     transform: translate(-50%, -50%);
+    font-size: 35pt;
+
 }
 
 #tagName {
-    color: burlywood;
-    background: rgba(0, 0, 0, 0.5);
+    color: beige;
+    text-shadow: 2px 2px black;
     position: absolute;
-    top: 55%;
-    left: 80%;
+    top: 60%;
+    left: 70%;
     transform: translate(-50%, -50%);
 }
 
 #ccVideo {
-    position: fixed;
+    position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-  }
-
-ul {
-    color: burlywood;
-    background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    left: 80%;
-    display: block;
-    padding: 8px;
+    
 }
+    
+
+
+    ul {
+    position: absolute;
+    left: 70%;
+    display: block;
+    padding: 10px;
+}
+
+a {
+    color:beige;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-size: 20pt;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover {
+    color: gold;
+}
+
+

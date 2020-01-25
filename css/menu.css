@@ -31,9 +31,9 @@ section#carousel > figure.visible > figcaption {
 article > h2 {
     position: relative;
     left: 60px;
-    font-style: italic;
-}  
-
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
 #Pizza_Menu {
     position: relative;
     border: 2px solid black;
@@ -65,24 +65,28 @@ article > h2 {
 }
 
 .menu_font {
-    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 div {
     position: relative;
     text-align: center;
     background: rgba(0, 0, 0, 0.301);
-    padding: 20px;
+    padding: 20px ;
     margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: -20px;
+    margin-right: -20px;
     font-size: 16pt;
 }
 
 a {
     color: beige;
     font-weight: bold;
-    padding: 120px;
+    text-shadow: 2px 2px black;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 90px;
     text-decoration: none;
 }
 
@@ -91,17 +95,16 @@ a:hover {
 }
 
 header {
-    color: beige;
+    color: rgba(255, 217, 0, 0.705);
     font-size: 32pt;
+    text-shadow: 2px 2px black;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 #background-image {
     width: 100%;
     height: 100%;
-    background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(255, 0, 0, 0.45)), url(../images/Menu\ background.jpeg);
+    background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/Menu\ background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
